@@ -1,0 +1,4 @@
+アナログジョイスティック [JT8P-3.2T-B10K-1-16Y]:https://akizukidenshi.com/catalog/g/gP-04048
+Choc v1 3つ
+チップ抵抗　３つ
+Arduino Pro Micro
