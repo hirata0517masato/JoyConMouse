@@ -75,7 +75,9 @@ void loop() {
         Ycnt++;
         if(Ycnt > 6  || RbuttonState == LOW){
           Ycnt = 0;
-          Mouse.move(0, yPos / adjust  , 0);
+          if(yPos / adjust != 0){
+            Mouse.move(0, yPos / adjust  , 0);
+          }
         }
       }
     }
@@ -99,7 +101,9 @@ void loop() {
         Xcnt++;
         if( Xcnt > 6 || RbuttonState == LOW){
           Xcnt = 0;
-          Mouse.move(xPos / adjust , 0, 0);
+          if(xPos / adjust != 0){
+            Mouse.move(xPos / adjust , 0, 0);
+          }
         }
       }
     }
